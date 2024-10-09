@@ -8,16 +8,16 @@ public class ArrayString
 
 		Scanner sc = new Scanner(System.in);
 		{
-			System.out.println("Enter the Number of Elements:");
+			System.out.println("Enter the Number of Elements you want :");
 			n=sc.nextInt();
 			
 			String[] array=new String[10];
-			System.out.println("Enter the elements ");
+			System.out.println("Enter the Elements:- ");
 			for(i=0;i<n;i++)
 			{
 				array[i]=sc.next();
 			}
-			System.out.println("Elements in array are:- ");
+			System.out.println("Elements in Array are:- ");
 			for(i=0;i<n;i++)
 			{
 			System.out.println(array[i]);
