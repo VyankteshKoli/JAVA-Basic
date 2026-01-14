@@ -5,7 +5,6 @@ class ArrayListcode{
 
     public static void main(String args[]){
 
-        // For Integers
         ArrayList<Integer> list = new ArrayList<>();
 
         list.add(1);
@@ -22,7 +21,6 @@ class ArrayListcode{
 
             System.out.println(list);
 
-        // For Strings
         ArrayList<String> fruits = new ArrayList<>();
 
         fruits.add("Apple");
