@@ -11,7 +11,7 @@ public class LinkedListcode {
         linkedList.add(1);
         linkedList.add(2);
         linkedList.add(3);
-        linkedList.add(2); // O(n)
+        linkedList.add(2);
         linkedList.addLast(4);
         linkedList.addFirst(0);
 
